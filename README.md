@@ -6,7 +6,7 @@ This repo is an example of a standalone RaiSim application. It requires RaiSim v
 
 how to build
 --------------------------
-in this folder
+Assuming that you already installed raisim,
 
 - Create the working directory ``mkdir build && cd build``
 - Run cmake ``cmake .. -DCMAKE_PREFIX_PATH=${LOCAL_INSTALL}``
