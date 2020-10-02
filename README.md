@@ -1,7 +1,7 @@
 raisim example
 ==========================
 
-This repo is an example of a standalone RaiSim application. It requires RaiSim v1.0 (not released yet)
+This repo is an example of a standalone RaiSim application. It requires RaiSim v1.0 from github.com/raisimTech/raisimlib
 
 
 how to build
