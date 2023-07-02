@@ -3,8 +3,7 @@
 
 int main(int argc, char* argv[]) {
   auto binaryPath = raisim::Path::setFromArgv(argv[0]);
-
-  raisim::World::setActivationKey(PATH-TO-THE-ACTIVATION-KEY);
+  
   raisim::World world;
   auto laikago = world.addArticulatedSystem(binaryPath.getDirectory() + "\\rsc\\laikago\\laikago.urdf");
   auto ball = world.addSphere(0.1, 1);
