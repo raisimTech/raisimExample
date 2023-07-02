@@ -11,6 +11,8 @@ target_link_libraries(raisimExample PUBLIC raisim::raisim)
 
 if(NOT WIN32)
   target_link_libraries(raisimExample PUBLIC pthread)
+else()
+  target_link_libraries(raisimExample PUBLIC Ws2_32 Winmm)
 endif()
 
 target_include_directories(raisimExample PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
